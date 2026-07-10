@@ -492,17 +492,6 @@
         "discardChanges": "تجاهل التغييرات"
     },
     "goals": {
-        "goalsSettings": {
-            "editGoals": "تعديل الأهداف",
-            "editGoalsFor": "تعديل أهداف يوم {{date}}",
-            "loadingGoals": "جارٍ تحميل الأهداف…",
-            "changesApplyToDate": "تُطبّق التغييرات على هذا التاريخ فقط.",
-            "applyPreset": "تطبيق إعداد أهداف محفوظ",
-            "selectGoalPreset": "اختر إعداد الأهداف الذي تريد تطبيقه",
-            "saveGoals": "حفظ الأهداف",
-            "saving": "جارٍ الحفظ…",
-            "errorSavingGoals": "تعذر حفظ الأهداف. حاول مرة ثانية."
-        },
         "mealDistribution": {
             "selectTemplate": "اختر طريقة توزيع الوجبات",
             "custom": "توزيع مخصص",
