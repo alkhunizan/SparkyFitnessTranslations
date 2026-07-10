@@ -499,6 +499,7 @@
             "calcium": "الكالسيوم (ملغ)",
             "iron": "الحديد (ملغ)",
             "waterGoal": "هدف شرب الماء ({{unit}})",
+            "waterGoalUnit": "وحدة الماء",
             "targetExerciseCaloriesBurned": "هدف السعرات المحروقة بالتمرين",
             "targetExerciseDurationMinutes": "هدف مدة التمرين (بالدقائق)",
             "mealCalorieDistribution": "توزيع السعرات على الوجبات",
