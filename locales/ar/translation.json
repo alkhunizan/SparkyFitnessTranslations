@@ -1933,6 +1933,10 @@
       "newPasswordsDoNotMatch": "كلمتا المرور غير متطابقتين",
       "passwordLengthError": "يجب ألا تقل كلمة المرور عن 6 أحرف",
       "enterNewEmailAddress": "أدخل عنوان بريد إلكتروني جديد"
+    },
+    "providerCard": {
+      "lastSync": "آخر مزامنة:",
+      "tokenExpires": "انتهاء الرمز:"
     }
   },
   "calculationSettings": {
@@ -4062,6 +4066,9 @@
       "energy": "الطاقة",
       "notes": "ملاحظات",
       "notesPlaceholder": "أي ملاحظات أخرى…"
+    },
+    "insights": {
+      "cycleStarting": "بداية الدورة {{date}}"
     }
   }
 }
