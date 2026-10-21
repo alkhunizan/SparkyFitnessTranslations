@@ -1,7 +1,7 @@
 {
   "auth": {
-    "logoAlt": "شعار سباركي فتنس",
-    "tagline": "تابع أكلك ونشاطك ومويتك وصحتك، كلها بمكان واحد.",
+    "logoAlt": "شعار هلا فت",
+    "tagline": "كل يوم أقوى",
     "warningTitle": "تنبيه مهم",
     "authenticationFailed": "تعذر تسجيل الدخول",
     "signIn": "تسجيل الدخول",
@@ -75,7 +75,7 @@
   },
   "releaseDialog": {
     "title": "يتوفر إصدار جديد: {{version}}",
-    "available": "يتوفر إصدار جديد من سباركي فتنس!",
+    "available": "يتوفر إصدار جديد من هلا فت!",
     "published": "تاريخ النشر: {{date}}",
     "releaseNotes": "ملاحظات الإصدار:"
   },
@@ -87,7 +87,19 @@
     "signOut": "تسجيل الخروج",
     "signOutSuccess": "تم تسجيل الخروج",
     "signOutError": "تعذر تسجيل الخروج",
-    "whatsNew": "ما الجديد"
+    "whatsNew": "ما الجديد",
+    "appVersion": "هلا فت، الإصدار {{version}}",
+    "switchProfile": "تبديل الملف الشخصي",
+    "yourProfile": "ملفك الشخصي",
+    "familyProfile": "(العائلة)",
+    "openChat": "فتح محادثة هلا",
+    "restoreChat": "إظهار زر محادثة هلا",
+    "minimizeChat": "تصغير زر المحادثة",
+    "chatAvatarAlt": "مدرب هلا الذكي",
+    "chatTitle": "مدرب هلا الذكي",
+    "chatDescription": "مدربك الشخصي في التغذية واللياقة بالذكاء الاصطناعي.",
+    "chatSelectProvider": "اختيار مزود الخدمة",
+    "chatClearHistory": "مسح سجل المحادثة"
   },
   "theme": {
     "light": "المظهر الفاتح",
@@ -101,6 +113,17 @@
     "add": "إضافة",
     "actions": "الإجراءات",
     "back": "رجوع",
+    "previous": "السابق",
+    "next": "التالي",
+    "dateRangePresets": {
+      "quickSelect": "اختيار سريع",
+      "last7Days": "آخر 7 أيام",
+      "last14Days": "آخر 14 يومًا",
+      "last30Days": "آخر 30 يومًا",
+      "last90Days": "آخر 90 يومًا",
+      "sixMonths": "آخر 6 أشهر",
+      "oneYear": "آخر سنة"
+    },
     "breakfast": "الفطور",
     "cancel": "إلغاء",
     "confirm": "تأكيد",
@@ -161,7 +184,10 @@
     "totalSets": "إجمالي المجموعات",
     "tuesday": "الثلاثاء",
     "wednesday": "الأربعاء",
-    "yes": "نعم"
+    "yes": "نعم",
+    "close": "إغلاق",
+    "tryAgain": "حاول مرة ثانية",
+    "preparingYourDay": "نجهز يومك…"
   },
   "workout": {
     "notesPlaceholder": "أضف ملاحظة لهالمجموعة…",
@@ -301,7 +327,9 @@
     "checkin": "تسجيل القياسات",
     "cycle": "الدورة",
     "medications": "الأدوية",
-    "pregnancy": "الحمل"
+    "pregnancy": "الحمل",
+    "foodLog": "سجل الطعام",
+    "wellness": "صحتي"
   },
   "onboarding": {
     "completeSetup": "إكمال الإعداد",
@@ -341,10 +369,11 @@
     "activityHeavyDesc": "تمرين قوي أو رياضة أو عمل بدني.",
     "addBurnedCaloriesTitle": "هل تبي سعرات التمرين تزيد هدفك اليومي؟",
     "addBurnedCaloriesDesc": "إذا فعلت الخيار، نضيف السعرات المسجلة من التمرين إلى هدفك اليومي.",
+    "addBurnedCaloriesExample": "مثال: لو حرقت 300 سعرة حرارية في المشي، نضيفها لهدف اليوم.",
     "preparingPlanTitle": "نجهز خطتك المبدئية…",
     "preparingPlanDescription": "نحسب أهدافك بناءً على بياناتك.",
     "foodSourcesTitle": "تحسين البحث عن الأطعمة (اختياري)",
-    "foodSourcesDescription": "سباركي فتنس يشتغل بدون هالخدمات. إذا عندك بيانات ربط API، تقدر تضيفها الحين أو لاحقًا من الإعدادات.",
+    "foodSourcesDescription": "هلا فت يشتغل بدون هالخدمات. إذا عندك بيانات ربط API، تقدر تضيفها الحين أو لاحقًا من الإعدادات.",
     "foodSourcesFatSecretMissingTitle": "بيانات FatSecret غير مكتملة",
     "foodSourcesFatSecretMissingDescription": "أدخل معرّف التطبيق ومفتاح التطبيق معًا، أو اترك الحقلين فارغين للتخطي.",
     "foodSourcesSignedOutTitle": "يلزم تسجيل الدخول",
@@ -488,7 +517,17 @@
     "loadingProfile": "نجهز بياناتك للإعداد",
     "back": "رجوع",
     "skip": "تخطي",
-    "progress": "تقدم الإعداد"
+    "progress": "تقدم الإعداد",
+    "stepCounter": "{{current}} من {{total}}",
+    "birthDateFromSignup": "عبّينا التاريخ من بيانات التسجيل. عند المتابعة نحفظه في ملفك الشخصي لتقدير احتياجاتك من السعرات.",
+    "bodyFatUnsure": "ما أدري، قدّرها لي",
+    "skipConfirmTitle": "متأكد؟",
+    "skipConfirmDescription": "بنحط لك أهداف عامة، وتقدر تكمل خطتك أي وقت.",
+    "skipConfirmContinue": "أكمل الحين",
+    "skipConfirmLater": "لاحقًا",
+    "resumeBannerTitle": "خطتك الشخصية باقي لها دقيقة",
+    "resumeBannerAction": "كمّلها",
+    "resumeBannerDismiss": "إخفاء"
   },
   "dialog": {
     "close": "إغلاق",
@@ -3745,7 +3784,7 @@
     "failedToLoadFilterOptions": "تعذر تحميل خيارات التصفية: {{errorMessage}}"
   },
   "addComp": {
-    "addNew": "إضافة جديد"
+    "addNew": "وش ودّك تسجّل؟"
   },
   "barcodeScanner": {
     "error": {
@@ -4098,10 +4137,14 @@
     },
     "insights": {
       "cycleStarting": "بداية الدورة {{date}}"
+    },
+    "calendar": {
+      "previousMonth": "الشهر السابق",
+      "nextMonth": "الشهر التالي"
     }
   },
   "legal": {
-    "navigation": "الشؤون القانونية",
+    "navigation": "الروابط القانونية",
     "privacy": "إشعار الخصوصية",
     "terms": "شروط الاستخدام"
   },
@@ -4110,7 +4153,7 @@
     "registration": {
       "title": "العمر والموافقة القانونية",
       "birthDate": "تاريخ الميلاد",
-      "birthDatePrivacy": "نستخدمه فقط للتحقق من أن عمرك 18 سنة أو أكثر، ولا يحتفظ هلا فت بهذا التاريخ في سجل الموافقات.",
+      "birthDatePrivacy": "نستخدمه للتحقق من أن عمرك 18 سنة أو أكثر، ولتعبئة ملفك الشخصي إذا أكدته أثناء الإعداد. ولا يحتفظ هلا فت بهذا التاريخ في سجل الموافقات.",
       "ageAttestation": "أقر بأن عمري 18 سنة أو أكثر، وأن التاريخ المدخل أعلاه صحيح.",
       "termsPrefix": "أوافق على",
       "health": "أوافق صراحةً على معالجة بياناتي الصحية الحساسة وفق ما هو موضح في",
@@ -4126,7 +4169,14 @@
     },
     "error": {
       "title": "تعذّر التحقق من موافقتك",
-      "description": "تبقى ميزاتك الصحية مقفلة إلى أن يتحقق الخادم من الإصدارات القانونية الحالية."
+      "description": "تبقى ميزاتك الصحية مقفلة إلى أن يتحقق الخادم من الإصدارات القانونية الحالية.",
+      "retry": "إعادة المحاولة"
+    },
+    "delegated": {
+      "title": "للمتابعة، يلزم الرجوع إلى ملفك الشخصي",
+      "description": "ملف فرد العائلة المختار لا يملك الموافقة المطلوبة حاليًا، ولا يمكن لهلا فت تسجيل موافقة حسابك نيابةً عن هذا الشخص.",
+      "switching": "جارٍ تبديل الملف الشخصي…",
+      "switchBack": "الرجوع إلى ملفك الشخصي"
     }
   }
 }
