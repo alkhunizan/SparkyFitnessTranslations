@@ -1,7 +1,51 @@
 {
   "auth": {
     "logoAlt": "شعار هلا فت",
-    "tagline": "كل يوم أقوى",
+    "tagline": "تحرك بطريقتك",
+    "hero": {
+      "brandName": "هلا فت",
+      "headline": "لياقة تمشي مع يومك",
+      "subline": "خطوات بسيطة، تقدم واضح، وتشجيع يساعدك تستمر.",
+      "points": {
+        "fitsYourDay": {
+          "title": "يناسب يومك",
+          "description": "خطوة واقعية بدل برنامج صارم."
+        },
+        "clearProgress": {
+          "title": "تقدم واضح",
+          "description": "الاستمرار يبان أثره مع الوقت."
+        },
+        "noPressure": {
+          "title": "بدون ضغط",
+          "description": "يوم تفوّته ما يلغي تقدمك."
+        }
+      }
+    },
+    "languageSwitch": "اللغة",
+    "signinIntro": {
+      "title": "هلا من جديد"
+    },
+    "signupIntro": {
+      "title": "يلا نبدأ",
+      "description": "بعد إنشاء الحساب، أسئلة قصيرة عنك وعن هدفك تبني خطتك المبدئية، وتعديلها متاح في أي وقت."
+    },
+    "signupMissing": {
+      "title": "باقي",
+      "birthDate": "تاريخ الميلاد (18 سنة أو أكثر)",
+      "ageAttested": "تأكيد العمر",
+      "termsAccepted": "الموافقة على شروط الاستخدام",
+      "healthDataProcessingAccepted": "الموافقة على معالجة البيانات الصحية"
+    },
+    "passwordChecklist": {
+      "title": "متطلبات كلمة المرور",
+      "tooShort": "6 خانات على الأقل",
+      "missingUppercase": "حرف إنجليزي كبير (A–Z)",
+      "missingLowercase": "حرف إنجليزي صغير (a–z)",
+      "missingNumber": "رقم واحد على الأقل",
+      "missingSpecialCharacter": "رمز مثل ! أو @",
+      "met": "(مكتمل)",
+      "unmet": "(باقي)"
+    },
     "warningTitle": "تنبيه مهم",
     "authenticationFailed": "تعذر تسجيل الدخول",
     "signIn": "تسجيل الدخول",
@@ -99,7 +143,79 @@
     "chatTitle": "مدرب هلا الذكي",
     "chatDescription": "مدربك الشخصي في التغذية واللياقة بالذكاء الاصطناعي.",
     "chatSelectProvider": "اختيار مزود الخدمة",
-    "chatClearHistory": "مسح سجل المحادثة"
+    "chatClearHistory": "مسح سجل المحادثة",
+    "familyMember": "فرد من العائلة",
+    "actingAs": "الملف المفتوح الآن: {{name}}",
+    "actingAsHint": "أي تسجيل يُحفظ في هذا الملف",
+    "backToMyProfile": "الرجوع لملفي",
+    "accountMenu": "قائمة الحساب",
+    "about": "عن هلا فت",
+    "theme": "المظهر",
+    "brandName": "هلا فت",
+    "homeLink": "هلا فت، الصفحة الرئيسية",
+    "workoutPlayback": "تشغيل التمرين"
+  },
+  "chat": {
+    "welcomeTitle": "هلا والله! وش نسوي اليوم؟",
+    "welcomeSubtitle": "نسجّل وجبة، نراجع اليوم، أو نطلع بفكرة جديدة سوا.",
+    "composerPlaceholder": "رسالة إلى هلا…",
+    "messageInput": "حقل الرسالة",
+    "send": "إرسال الرسالة",
+    "stop": "إيقاف الرد",
+    "scrollToBottom": "الانتقال لآخر المحادثة",
+    "copy": "نسخ",
+    "regenerate": "إعادة الرد",
+    "more": "المزيد",
+    "exportMarkdown": "تصدير بصيغة Markdown",
+    "edit": "تعديل",
+    "cancelEdit": "إلغاء",
+    "updateMessage": "تحديث",
+    "suggestions": {
+      "kabsa": {
+        "label": "كبسة",
+        "prompt": "أبي أسجّل صحن كبسة دجاج على الغداء"
+      },
+      "caloriesLeft": {
+        "label": "باقي سعراتي",
+        "prompt": "كم باقي لي سعرات اليوم؟"
+      },
+      "suhoor": {
+        "label": "سحور يخفف العطش",
+        "prompt": "وش أتسحّر عشان يخف عليّ العطش في النهار؟"
+      },
+      "proteinSnack": {
+        "label": "سناك بروتين من البقالة",
+        "prompt": "أبي سناك غني بالبروتين ألقاه في أي بقالة"
+      },
+      "datesCoffee": {
+        "label": "تمر وقهوة",
+        "prompt": "أبي أسجّل ثلاث تمرات وفنجالين قهوة سعودية"
+      },
+      "waterHeat": {
+        "label": "موية والجو حار",
+        "prompt": "كم أحتاج أشرب موية والجو حار كذا؟"
+      }
+    }
+  },
+  "askHala": {
+    "label": "اسأل هلا",
+    "foodSearchHint": "ما لقيته؟ هلا تساعدك تسجّله.",
+    "prompts": {
+      "fastingActive": "صيامي شغّال الحين. وش يساعدني أكمّله براحة وأحافظ على السوائل؟",
+      "fastingIdle": "أفكر أبدأ صيام. أي مدة تناسب البداية، ووش لازم أنتبه له، ومتى لازم أراجع الطبيب قبل؟",
+      "waterHeat": "الجو حار اليوم. كم أحتاج أشرب موية، ووش علامات الجفاف اللي لازم أنتبه لها؟",
+      "foodSearch": "ساعدني أسجّل {{term}}. قدّر الكمية والقيم الغذائية، ووضّح لي وش افترضت.",
+      "reports": {
+        "nutrition": "لخّص لي تغذيتي من {{start}} إلى {{end}}، واقترح تحسين واحد بسيط وواقعي.",
+        "measurements": "وش اللي تغيّر في قياساتي من {{start}} إلى {{end}}؟",
+        "fasting": "راجع صيامي من {{start}} إلى {{end}}. وش الأنماط اللي تلاحظها؟",
+        "exercise": "لخّص لي تماريني من {{start}} إلى {{end}}، ووش أركّز عليه بعدها؟",
+        "sleep": "كيف كان نومي من {{start}} إلى {{end}}؟ فيه عادات بسيطة تستاهل التجربة؟",
+        "stress": "ساعدني أفهم التوتر والمزاج عندي من {{start}} إلى {{end}}.",
+        "medications": "أرجو تلخيص سجل الأدوية والأعراض من {{start}} إلى {{end}} لمناقشته مع الطبيب المعالج.",
+        "overview": "أعطني نظرة سريعة على بياناتي من {{start}} إلى {{end}}."
+      }
+    }
   },
   "theme": {
     "light": "المظهر الفاتح",
@@ -108,6 +224,7 @@
     "whoop": "مظهر WHOOP"
   },
   "common": {
+    "hijriDate": "التاريخ الهجري (حسب تقويم أم القرى)",
     "active": "فعّال",
     "advanced": "خيارات إضافية",
     "add": "إضافة",
@@ -152,6 +269,9 @@
     "today": "اليوم",
     "previousDay": "اليوم السابق",
     "nextDay": "اليوم التالي",
+    "yesterday": "أمس",
+    "tomorrow": "بكرة",
+    "relativeDate": "{{relative}}، {{date}}",
     "openDatePicker": "اختيار تاريخ. التاريخ الحالي: {{date}}",
     "saturday": "السبت",
     "saveChanges": "حفظ التغييرات",
@@ -329,7 +449,9 @@
     "medications": "الأدوية",
     "pregnancy": "الحمل",
     "foodLog": "سجل الطعام",
-    "wellness": "صحتي"
+    "wellness": "صحتي",
+    "checkinShort": "القياسات",
+    "more": "المزيد"
   },
   "onboarding": {
     "completeSetup": "إكمال الإعداد",
@@ -485,6 +607,34 @@
     "personalPlanExerciseCaloriesLabel": "إضافة سعرات التمرين إلى الهدف",
     "personalPlanEnabled": "مفعّل",
     "personalPlanDisabled": "غير مفعّل",
+    "personalPlanDisclaimerShort": "تقديرات للإرشاد فقط، وليست استشارة طبية.",
+    "personalPlanDisclaimerDetails": "التفاصيل",
+    "personalPlanDisclaimerHide": "إخفاء التفاصيل",
+    "personalPlanDisclaimerConditions": "في حال الحمل أو الرضاعة، أو الإصابة بالسكري أو أي مرض مزمن، أو تناول أدوية بشكل منتظم، يُرجى استشارة الطبيب قبل اتباع هذه الخطة.",
+    "planHeroLabel": "هدفك اليومي",
+    "planMacroSplitLabel": "توزيع الطاقة: البروتين {{protein}}%، الكربوهيدرات {{carbs}}%، الدهون {{fat}}%",
+    "planMacroCarbs": "كربوهيدرات",
+    "planMacroGrams": "{{grams}} غ",
+    "planMacroShare": "{{percent}}%",
+    "planTimelineProjected": "بوتيرة ثابتة ومعتدلة، ممكن الوصول لوزنك المستهدف تقريبًا في {{date}}.",
+    "planTimelineEstimate": "هذا تقدير على أساس {{rate}} {{unit}} تقريبًا في الأسبوع، والتقدّم الفعلي يختلف من أسبوع لأسبوع.",
+    "planTimelineMaintain": "خطتك مبنية على المحافظة على وزنك الحالي، لذلك لا يوجد لها تاريخ نهاية.",
+    "planTimelineMinor": "لا نعرض تاريخًا للهدف لمن هم دون 18 سنة، لأن احتياجات الجسم في مرحلة النمو مختلفة. يمكن للطبيب أو أخصائي التغذية المرخّص المساعدة في تحديد الهدف المناسب.",
+    "planTimelineBelowHealthy": "لا نعرض تاريخًا لهذا الهدف لأنه أقل من نطاق الوزن الصحي بالنسبة لطولك. يمكن للطبيب أو أخصائي التغذية المرخّص المساعدة في اختيار هدف آمن.",
+    "planUnitKg": "كغ",
+    "planUnitLb": "رطل",
+    "planDailyTargetsTitle": "ثلاثة أهداف يومية",
+    "planTargetWater": "{{litres}} لتر ماء",
+    "planTargetWaterHint": "موزّعة على اليوم",
+    "planTargetProtein": "{{grams}} غ بروتين",
+    "planTargetProteinHint": "مقسّمة على وجباتك",
+    "planTargetSteps": "قرابة {{steps}} خطوة",
+    "planTargetStepsHint": "الزيادة تكون بالتدريج من مستواك الحالي",
+    "planAdvancedTitle": "تخصيص متقدم",
+    "planAdvancedHint": "وحدة الطاقة، ونمط التغذية، وطرق الحساب، وكل أهداف العناصر الغذائية",
+    "planSuccessTitle": "خطتك جاهزة",
+    "planSuccessBody": "الخطوة الجاية: تسجيل أول وجبة، وبنفتح لك {{meal}} على طول.",
+    "planSuccessLogMeal": "تسجيل أول وجبة",
     "calculationSettingsTitle": "إعدادات الحساب المتقدمة",
     "calculationSettingsFatMethod": "طريقة توزيع الدهون الغذائية",
     "calculationSettingsMinerals": "أهداف المعادن",
@@ -674,6 +824,36 @@
     "copyAllFromYesterday": "نسخ كل أطعمة أمس",
     "nutrientProgress": "تقدم {{nutrient}}",
     "dailyEnergyGoal": "هدف الطاقة اليومي",
+    "moreDayActions": "إجراءات إضافية لليوم",
+    "nutrientLeft": "باقي {{amount}} {{unit}}",
+    "nutrientOver": "زايد {{amount}} {{unit}}",
+    "todayHero": {
+      "greetingMorning": "صباح الخير يا {{name}}",
+      "greetingMorningNoName": "صباح الخير",
+      "greetingEvening": "مساء الخير يا {{name}}",
+      "greetingEveningNoName": "مساء الخير",
+      "mealPrompt": "الخطوة الجاية: {{meal}}",
+      "logMeal": "تسجيل {{meal}}",
+      "waterPrompt": "شرب الماء أقل من المعدل المتوقع لهذا الوقت",
+      "logWater": "تسجيل ماء",
+      "weightPrompt": "وجبات اليوم كلها مسجّلة",
+      "logWeight": "تسجيل وزن اليوم",
+      "summaryLabel": "ملخص اليوم",
+      "energyLeft": "باقي {{amount}} {{unit}}",
+      "energyOver": "زايد {{amount}} {{unit}}",
+      "waterPercent": "الماء {{percent}}٪",
+      "proteinLeft": "باقي {{amount}} {{unit}} بروتين",
+      "proteinMet": "هدف البروتين مكتمل"
+    },
+    "energyRing": {
+      "metLabel": "وصلت هدفك",
+      "metValue": "وصلت هدفك: {{percent}}٪ من الهدف",
+      "underValue": "باقي {{amount}} {{unit}}، {{percent}}٪ من الهدف",
+      "overValue": "زايد {{amount}} {{unit}} عن الهدف",
+      "overCaption": "{{unit}} فوق الهدف",
+      "underCaption": "باقي {{unit}}",
+      "howCalculated": "كيف انحسب هدفك؟"
+    },
     "calculateExplanation": {
       "dialogDescription": "شرح تفصيلي لكيفية حساب هدف الطاقة اليومي.",
       "stepBmr": "١. معدل الأيض الأساسي (BMR)",
@@ -844,6 +1024,10 @@
       "hideLog": "إخفاء سجل مشروبات اليوم",
       "editTimeFor": "تعديل وقت {{container}}",
       "logTitle": "مشروبات اليوم",
+      "logTitleOnDate": "مشروبات {{date}}",
+      "goalReached": "كفو، وصلت هدف الماء",
+      "quickAddLabel": "إضافة سريعة",
+      "quickAddFrom": "إضافة مشروب من {{container}}",
       "logEmpty": "ما سجلت أي مشروب للحين",
       "deleteEntry": "حذف هذا المشروب",
       "deleteConfirm": "تبي تحذف سجل {{volume}} {{unit}}؟",
@@ -875,6 +1059,11 @@
     "copyYesterdayAction": "نسخ وجبة أمس",
     "saveAsMealAction": "حفظها كوجبة قابلة لإعادة الاستخدام",
     "empty": "ما سجلت طعامًا لهالوجبة للحين.",
+    "moreActions": "المزيد من خيارات {{mealName}}",
+    "emptyTitle": "ما سجّلت شيء للحين",
+    "emptyDescription": "صنف واحد يكفي للبداية.",
+    "emptyAddFirst": "إضافة أول صنف",
+    "emptySameAsYesterday": "نفس أكل أمس",
     "fromPlan": "من الخطة",
     "glycemicIndex": "المؤشر السكري: {{value}}",
     "glycemic": {
@@ -971,6 +1160,7 @@
       "burnedCaloriesBreakdown": "تفاصيل السعرات المستهلكة:",
       "burnedEnergyBreakdown": "تفاصيل الطاقة المستهلكة:",
       "energyBurnedBreakdownTitle": "تفاصيل الطاقة المستهلكة",
+      "showBurnedBreakdown": "عرض التفاصيل",
       "otherExerciseCalories": "تمارين أخرى: {{exerciseCalories}} {{energyUnit}}",
       "activeCalories": "السعرات النشطة: {{activeCaloriesFromExercise}} {{energyUnit}}",
       "stepsCalories": "الخطوات: {{dailySteps}} = {{stepsCalories}} {{energyUnit}}",
@@ -1385,6 +1575,8 @@
     "addExercise": "إضافة تمرين",
     "startWorkout": "ابدأ تمرينك",
     "noEntries": "ما سجلت أي تمرين لهاليوم.",
+    "emptyFirstMove": "أول حركة لك ممكن تكون ٥ دقايق، والمشي الخفيف يُحسب.",
+    "emptyAction": "تسجيل نشاط",
     "exerciseTotal": "ملخص التمارين",
     "duration": "المدة",
     "averageHeartRate": "متوسط النبض",
@@ -1488,6 +1680,25 @@
     "yourMeals": "وجباتي",
     "noSavedFoods": "ما عندك أصناف محفوظة.",
     "noSavedFoodsOrMeals": "ما عندك أصناف أو وجبات محفوظة.",
+    "addAsCustomFood": "إضافة صنف جديد",
+    "firstUse": {
+      "title": "وش أكلت اليوم؟",
+      "description": "ضغطة على أي أكلة تبدأ البحث عنها، أو تقدر تكتب اسمها في خانة البحث.",
+      "chipsLabel": "أكلات سعودية معروفة",
+      "scanBarcode": "منتج مغلّف؟ مسح الباركود أسرع"
+    },
+    "staples": {
+      "dates": "تمر",
+      "laban": "لبن",
+      "arabicCoffee": "قهوة عربية",
+      "chickenKabsa": "كبسة دجاج",
+      "jareesh": "جريش",
+      "sambousa": "سمبوسة",
+      "shawarma": "شاورما",
+      "foul": "فول",
+      "mutabbaq": "مطبق",
+      "tea": "شاي"
+    },
     "searchOnlineToImport": "ابحث في المصادر الخارجية عن صنف لاستيراده.",
     "onlineSearchFailed": "تعذر البحث في مصدر البيانات الخارجي.",
     "loadMore": "عرض المزيد",
@@ -2282,7 +2493,41 @@
     "zoneRange": "{{start}}–{{end}} س",
     "zoneRangeOpen": "{{start}} س فأكثر",
     "safetyNote": "إذا عندك سكري أو مرض مزمن أو تستخدم أدوية بانتظام، استشر طبيبك قبل الصيام. أوقف الصيام إذا حسّيت بدوخة شديدة أو ظهرت عليك أعراض هبوط أو ارتفاع السكر أو الجفاف.",
+    "ramadan": {
+      "bannerTitle": "رمضان مبارك",
+      "bannerPrompt": "رمضان مبارك، نفعّل وضع رمضان؟",
+      "bannerBody": "يصير الصيام من وقت السحور إلى وقت الإفطار حسب الأوقات المُدخلة.",
+      "bannerAction": "تفعيل",
+      "bannerDismiss": "مو الحين",
+      "windowLabel": "من السحور إلى الإفطار",
+      "day": "يوم الصيام",
+      "suhoorTime": "نهاية السحور (بداية الصيام)",
+      "iftarTime": "وقت الإفطار (نهاية الصيام)",
+      "fastLength": "مدة الصيام: {{duration}}",
+      "invalidWindow": "لازم يكون وقت الإفطار بعد وقت السحور في نفس اليوم.",
+      "longWindow": "هذه المدة أطول من مدة الصيام المعتادة في رمضان، يُرجى التأكد من وقتي السحور والإفطار.",
+      "windowPassed": "وقت الإفطار المُدخل لهذا اليوم قد مضى. لتخطيط الصيام القادم، يمكن اختيار يوم الغد يومًا للصيام.",
+      "startsLater": "يبدأ الصيام عند وقت السحور المُدخل، ويبدأ العدّاد من ذلك الوقت.",
+      "timesHelp": "ينتهي السحور عند أذان الفجر ويكون الإفطار عند أذان المغرب، والأفضل اعتماد الأوقات من مواقيت الصلاة في مدينتك.",
+      "guideTitle": "دليل رمضان",
+      "tips": {
+        "hydration": "توزيع شرب الموية على الساعات بين الإفطار والسحور أريح من شربها دفعة وحدة.",
+        "breakGently": "الإفطار بهدوء يبدأ بموية وكم تمرة، وبعدها وجبة متوازنة.",
+        "saltySuhoor": "السحور المالح كثير قد يزيد العطش خلال النهار، والتخفيف من الملح يساعد.",
+        "lightActivity": "النشاط الخفيف أنسب في الساعات اللي قبل الإفطار، والتمارين الأقوى بعد الإفطار.",
+        "unwell": "عند الشعور بدوخة أو رجفة أو تشوّش أو إغماء أو تعب شديد أثناء الصيام، يُنصح بالتوقف عن الصيام وطلب المساعدة الطبية.",
+        "clinician": "في حال الإصابة بالسكري، أو الحمل أو الرضاعة، أو وجود مرض مزمن، أو تناول أدوية بانتظام، يُنصح باستشارة الطبيب حول إمكانية الصيام بأمان، ويُفضَّل ذلك قبل بداية رمضان. ولا يُنصح بتغيير جرعات الأدوية أو مواعيدها دون استشارته."
+      }
+    },
+    "idle": {
+      "previewLabel": "معاينة خطة الصيام: {{hours}} س، ضمن {{zone}}.",
+      "lastFast": "آخر صيام: {{duration}}"
+    },
     "presets": {
+      "ramadan": {
+        "name": "صيام رمضان",
+        "description": "من وقت السحور إلى وقت الإفطار حسب الأوقات المُدخلة."
+      },
       "sixteenEight": {
         "name": "نظام 16:8",
         "description": "صيام 16 ساعة ونافذة أكل 8 ساعات."
@@ -3225,6 +3470,10 @@
     }
   },
   "reports": {
+    "fasting": {
+      "zoneDistribution": "الصيام حسب المدة",
+      "customProtocol": "مخصص"
+    },
     "errorToastTitle": "خطأ",
     "signInMessage": "يرجى تسجيل الدخول لعرض التقارير.",
     "loadingDateControls": "جارٍ تحميل عناصر التحكم بالتاريخ…",
@@ -3549,6 +3798,9 @@
     "loadingCharts": "جارٍ تحميل الرسوم البيانية…",
     "failedToLoadExerciseProgressData": "تعذر تحميل بيانات تقدّم التمارين.",
     "noProgressDataAvailable": "لا تتوفر بيانات تقدّم للتمارين المحددة في النطاق الزمني المختار.",
+    "emptyTitle": "ما فيه تمارين مسجّلة في هذي الفترة",
+    "emptyDescription": "أول حركة لك ممكن تكون ٥ دقايق. الرسوم البيانية بتظهر هنا أول ما يتسجّل نشاط.",
+    "emptyAction": "تسجيل نشاط",
     "activityMaps": "خرائط النشاط",
     "weight": "الوزن",
     "kg": "kg",
@@ -3784,7 +4036,12 @@
     "failedToLoadFilterOptions": "تعذر تحميل خيارات التصفية: {{errorMessage}}"
   },
   "addComp": {
-    "addNew": "وش ودّك تسجّل؟"
+    "addNew": "وش ودّك تسجّل؟",
+    "whatToLog": "وش ودّك تسجّل؟",
+    "oneTapHint": "اختيار سريع لما تبي تسجّله",
+    "logMeal": "تسجيل وجبة",
+    "shortcuts": "انتقال سريع",
+    "whichMeal": "هذي لأي وجبة؟"
   },
   "barcodeScanner": {
     "error": {
@@ -4159,6 +4416,7 @@
       "health": "أوافق صراحةً على معالجة بياناتي الصحية الحساسة وفق ما هو موضح في",
       "ai": "اختياري: أسمح لميزات الذكاء الاصطناعي في هلا فت بإرسال المحتوى الذي أختاره إلى مزوّد ذكاء اصطناعي.",
       "aiProviders": "حسب الخدمة المختارة، قد تشمل الجهات المعالجة OpenAI أو Google Gemini أو Anthropic أو Mistral أو Groq أو OpenRouter أو xAI أو نقطة اتصال مخصصة. وقد تتم معالجة البيانات خارج المملكة العربية السعودية، بما في ذلك الولايات المتحدة أو أي دولة أخرى يفصح عنها المزوّد. يمكنك ترك هذا الخيار دون تحديد واستخدام هلا فت بدون ميزات الذكاء الاصطناعي.",
+      "aiChangeLater": "ممكن تغيير هذا لاحقاً من الإعدادات.",
       "required": "يجب أن يكون عمرك 18 سنة أو أكثر وأن توافق على الشروط القانونية المطلوبة قبل إنشاء الحساب."
     },
     "gate": {
@@ -4178,5 +4436,8 @@
       "switching": "جارٍ تبديل الملف الشخصي…",
       "switchBack": "الرجوع إلى ملفك الشخصي"
     }
+  },
+  "healthDataImport": {
+    "importCSV": "استيراد ملف CSV"
   }
 }
