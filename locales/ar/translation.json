@@ -1,7 +1,51 @@
 {
   "auth": {
     "logoAlt": "شعار هلا فت",
-    "tagline": "كل يوم أقوى",
+    "tagline": "تحرك بطريقتك",
+    "hero": {
+      "brandName": "هلا فت",
+      "headline": "لياقة تمشي مع يومك",
+      "subline": "خطوات بسيطة، تقدم واضح، وتشجيع يساعدك تستمر.",
+      "points": {
+        "fitsYourDay": {
+          "title": "يناسب يومك",
+          "description": "خطوة واقعية بدل برنامج صارم."
+        },
+        "clearProgress": {
+          "title": "تقدم واضح",
+          "description": "الاستمرار يبان أثره مع الوقت."
+        },
+        "noPressure": {
+          "title": "بدون ضغط",
+          "description": "يوم تفوّته ما يلغي تقدمك."
+        }
+      }
+    },
+    "languageSwitch": "اللغة",
+    "signinIntro": {
+      "title": "هلا من جديد"
+    },
+    "signupIntro": {
+      "title": "يلا نبدأ",
+      "description": "بعد إنشاء الحساب، أسئلة قصيرة عنك وعن هدفك تبني خطتك المبدئية، وتعديلها متاح في أي وقت."
+    },
+    "signupMissing": {
+      "title": "باقي",
+      "birthDate": "تاريخ الميلاد (18 سنة أو أكثر)",
+      "ageAttested": "تأكيد العمر",
+      "termsAccepted": "الموافقة على شروط الاستخدام",
+      "healthDataProcessingAccepted": "الموافقة على معالجة البيانات الصحية"
+    },
+    "passwordChecklist": {
+      "title": "متطلبات كلمة المرور",
+      "tooShort": "6 خانات على الأقل",
+      "missingUppercase": "حرف إنجليزي كبير (A–Z)",
+      "missingLowercase": "حرف إنجليزي صغير (a–z)",
+      "missingNumber": "رقم واحد على الأقل",
+      "missingSpecialCharacter": "رمز مثل ! أو @",
+      "met": "(مكتمل)",
+      "unmet": "(باقي)"
+    },
     "warningTitle": "تنبيه مهم",
     "authenticationFailed": "تعذر تسجيل الدخول",
     "signIn": "تسجيل الدخول",
@@ -99,7 +143,17 @@
     "chatTitle": "مدرب هلا الذكي",
     "chatDescription": "مدربك الشخصي في التغذية واللياقة بالذكاء الاصطناعي.",
     "chatSelectProvider": "اختيار مزود الخدمة",
-    "chatClearHistory": "مسح سجل المحادثة"
+    "chatClearHistory": "مسح سجل المحادثة",
+    "familyMember": "فرد من العائلة",
+    "actingAs": "الملف المفتوح الآن: {{name}}",
+    "actingAsHint": "أي تسجيل يُحفظ في هذا الملف",
+    "backToMyProfile": "الرجوع لملفي",
+    "accountMenu": "قائمة الحساب",
+    "about": "عن هلا فت",
+    "theme": "المظهر",
+    "brandName": "هلا فت",
+    "homeLink": "هلا فت، الصفحة الرئيسية",
+    "workoutPlayback": "تشغيل التمرين"
   },
   "theme": {
     "light": "المظهر الفاتح",
@@ -152,6 +206,9 @@
     "today": "اليوم",
     "previousDay": "اليوم السابق",
     "nextDay": "اليوم التالي",
+    "yesterday": "أمس",
+    "tomorrow": "بكرة",
+    "relativeDate": "{{relative}}، {{date}}",
     "openDatePicker": "اختيار تاريخ. التاريخ الحالي: {{date}}",
     "saturday": "السبت",
     "saveChanges": "حفظ التغييرات",
@@ -329,7 +386,9 @@
     "medications": "الأدوية",
     "pregnancy": "الحمل",
     "foodLog": "سجل الطعام",
-    "wellness": "صحتي"
+    "wellness": "صحتي",
+    "checkinShort": "القياسات",
+    "more": "المزيد"
   },
   "onboarding": {
     "completeSetup": "إكمال الإعداد",
@@ -674,6 +733,36 @@
     "copyAllFromYesterday": "نسخ كل أطعمة أمس",
     "nutrientProgress": "تقدم {{nutrient}}",
     "dailyEnergyGoal": "هدف الطاقة اليومي",
+    "moreDayActions": "إجراءات إضافية لليوم",
+    "nutrientLeft": "باقي {{amount}} {{unit}}",
+    "nutrientOver": "زايد {{amount}} {{unit}}",
+    "todayHero": {
+      "greetingMorning": "صباح الخير يا {{name}}",
+      "greetingMorningNoName": "صباح الخير",
+      "greetingEvening": "مساء الخير يا {{name}}",
+      "greetingEveningNoName": "مساء الخير",
+      "mealPrompt": "الخطوة الجاية: {{meal}}",
+      "logMeal": "تسجيل {{meal}}",
+      "waterPrompt": "شرب الماء أقل من المعدل المتوقع لهذا الوقت",
+      "logWater": "تسجيل ماء",
+      "weightPrompt": "وجبات اليوم كلها مسجّلة",
+      "logWeight": "تسجيل وزن اليوم",
+      "summaryLabel": "ملخص اليوم",
+      "energyLeft": "باقي {{amount}} {{unit}}",
+      "energyOver": "زايد {{amount}} {{unit}}",
+      "waterPercent": "الماء {{percent}}٪",
+      "proteinLeft": "باقي {{amount}} {{unit}} بروتين",
+      "proteinMet": "هدف البروتين مكتمل"
+    },
+    "energyRing": {
+      "metLabel": "وصلت هدفك",
+      "metValue": "وصلت هدفك: {{percent}}٪ من الهدف",
+      "underValue": "باقي {{amount}} {{unit}}، {{percent}}٪ من الهدف",
+      "overValue": "زايد {{amount}} {{unit}} عن الهدف",
+      "overCaption": "{{unit}} فوق الهدف",
+      "underCaption": "باقي {{unit}}",
+      "howCalculated": "كيف انحسب هدفك؟"
+    },
     "calculateExplanation": {
       "dialogDescription": "شرح تفصيلي لكيفية حساب هدف الطاقة اليومي.",
       "stepBmr": "١. معدل الأيض الأساسي (BMR)",
@@ -971,6 +1060,7 @@
       "burnedCaloriesBreakdown": "تفاصيل السعرات المستهلكة:",
       "burnedEnergyBreakdown": "تفاصيل الطاقة المستهلكة:",
       "energyBurnedBreakdownTitle": "تفاصيل الطاقة المستهلكة",
+      "showBurnedBreakdown": "عرض التفاصيل",
       "otherExerciseCalories": "تمارين أخرى: {{exerciseCalories}} {{energyUnit}}",
       "activeCalories": "السعرات النشطة: {{activeCaloriesFromExercise}} {{energyUnit}}",
       "stepsCalories": "الخطوات: {{dailySteps}} = {{stepsCalories}} {{energyUnit}}",
@@ -3784,7 +3874,12 @@
     "failedToLoadFilterOptions": "تعذر تحميل خيارات التصفية: {{errorMessage}}"
   },
   "addComp": {
-    "addNew": "وش ودّك تسجّل؟"
+    "addNew": "وش ودّك تسجّل؟",
+    "whatToLog": "وش ودّك تسجّل؟",
+    "oneTapHint": "اختيار سريع لما تبي تسجّله",
+    "logMeal": "تسجيل وجبة",
+    "shortcuts": "انتقال سريع",
+    "whichMeal": "هذي لأي وجبة؟"
   },
   "barcodeScanner": {
     "error": {
@@ -4159,6 +4254,7 @@
       "health": "أوافق صراحةً على معالجة بياناتي الصحية الحساسة وفق ما هو موضح في",
       "ai": "اختياري: أسمح لميزات الذكاء الاصطناعي في هلا فت بإرسال المحتوى الذي أختاره إلى مزوّد ذكاء اصطناعي.",
       "aiProviders": "حسب الخدمة المختارة، قد تشمل الجهات المعالجة OpenAI أو Google Gemini أو Anthropic أو Mistral أو Groq أو OpenRouter أو xAI أو نقطة اتصال مخصصة. وقد تتم معالجة البيانات خارج المملكة العربية السعودية، بما في ذلك الولايات المتحدة أو أي دولة أخرى يفصح عنها المزوّد. يمكنك ترك هذا الخيار دون تحديد واستخدام هلا فت بدون ميزات الذكاء الاصطناعي.",
+      "aiChangeLater": "ممكن تغيير هذا لاحقاً من الإعدادات.",
       "required": "يجب أن يكون عمرك 18 سنة أو أكثر وأن توافق على الشروط القانونية المطلوبة قبل إنشاء الحساب."
     },
     "gate": {
